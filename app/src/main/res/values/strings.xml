@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">DataInput</string>
     <string name="EditFieldHint">Enter User Name</string>
+    <string name="Young">Under 18</string>
+    <string name="Old">18 or over</string>
+    <string name="LocUS">US</string>
+    <string name="LocCA">Canada</string>
 </resources>

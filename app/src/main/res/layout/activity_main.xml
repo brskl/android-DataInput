@@ -27,11 +27,11 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="US"/>
+            android:text="@string/LocUS"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Canada"/>
+            android:text="@string/LocCA"/>
 
     </RadioGroup>
     <LinearLayout
@@ -43,8 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:showText="true"
-        android:textOn="18 or over"
-        android:textOff="Under 18"
+        android:textOn="@string/Old"
+        android:textOff="@string/Young"
         android:onClick="onClickToggle"
         />
     <LinearLayout
